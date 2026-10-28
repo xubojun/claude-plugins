@@ -1,6 +1,6 @@
 # claude-plugins
 
-xubojun 自用的 Claude Code 插件 marketplace。
+補足官方 marketplace 尚未提供的 Claude Code 插件，開放所有人安裝使用。
 
 | 插件 | 說明 |
 |---|---|
