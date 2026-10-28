@@ -11,3 +11,7 @@ xubojun 自用的 Claude Code 插件 marketplace。
 ```
 /plugin marketplace add xubojun/claude-plugins
 ```
+
+## 授權
+
+MIT，詳見 [LICENSE](LICENSE)。

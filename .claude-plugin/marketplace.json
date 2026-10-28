@@ -1,6 +1,8 @@
 {
   "name": "xubojun-plugins",
-  "owner": { "name": "xubojun" },
+  "owner": {
+    "name": "xubojun"
+  },
   "metadata": {
     "description": "xubojun 自用的 Claude Code 插件集"
   },
@@ -9,19 +11,26 @@
       "name": "dart-lsp",
       "description": "Dart/Flutter 語言伺服器：型別檢查、診斷、跳轉定義與尋找引用",
       "version": "1.0.0",
-      "author": { "name": "xubojun" },
+      "author": {
+        "name": "xubojun"
+      },
       "source": "./plugins/dart-lsp",
       "category": "development",
       "strict": false,
       "lspServers": {
         "dart": {
           "command": "dart",
-          "args": ["language-server", "--protocol=lsp"],
+          "args": [
+            "language-server",
+            "--protocol=lsp"
+          ],
           "extensionToLanguage": {
             ".dart": "dart"
           }
         }
-      }
+      },
+      "license": "MIT",
+      "repository": "https://github.com/xubojun/claude-plugins"
     }
   ]
 }
